@@ -1,0 +1,627 @@
+*{       
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: 10px;
+    text-decoration: none;
+    transition: .2s linear;
+    /* background-color: #42adf5; */
+    color: black;
+}        
+
+body {
+    background-image: url(./images/Tyler_Kathleen_Background.jpg);
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+html::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+html::-webkit-scrollbar-thumb {
+    background: black;
+  }
+
+.topContainer {
+    margin-top: 1vh;
+    /* border-bottom: 2px solid black; */
+}
+
+#monthHeader {
+    margin-left: 5vw;
+}
+
+#areaHeader {
+    margin-left: 5vw;
+}
+
+#hashtagHeader {
+    /* margin-left: 40vw; */
+    float: right;
+    padding-right: 10px;
+}
+
+.names {
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+}
+
+.navbar {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+/* .navbar > a {
+    padding: 10px;
+    color: white;
+    background-color: black;
+} */
+
+/* #rsvpButton:hover {
+    background-color: darkgray;
+} */
+
+.navbar a {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+
+#image {
+    height: 500px;
+    width: 500px;
+    outline: 10px solid black;
+}
+      
+.image {
+    margin: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#postcard {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 90vw;
+    left: 5vw;
+    text-align: center;
+    align-items: center;
+}
+
+#postcard, #tylerKoenigKathleen, #Richard, #Kathleen, .blackLine, #hashtag, #date,
+#location, .schedule, .schedule > div, #ceremony, #cocktail, .cocktail, .cocktail > div,
+.cocktail > div > a, #howWeMet, .smallerDate, .paragraph, #theProposal, #ampersand,
+.schedule > div > a {
+    background-color: gray !important;
+}        
+         
+#Richard {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    font-size: 2.7rem;
+    right: 100px;
+}
+
+#ampersand {
+    font-size: 100px;
+}     
+      
+#Kathleen {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    font-size: 2.7rem;
+    left: 100px;
+}     
+         
+.blackLine {
+    margin-left: 15%;
+    width: 70%;
+    padding-top: 20px;
+    margin-top: 50px;
+    border-top: 1px solid black;
+}
+
+#hashtag {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#date {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#ceremony, #cocktail {
+    font-size: 2.7rem;
+    margin-bottom: 10px;
+}
+
+.cocktail {
+    padding-bottom: 30px;
+}
+
+.cocktail > div > a, .schedule > div > a {
+    text-decoration: underline;
+}
+
+#howWeMet {
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.smallerDate {
+    padding-bottom: 20px;
+}
+
+#theProposal {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.paragraph {
+    margin-left: 18vw;
+    margin-right: 18vw;
+}
+
+.secondImage {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.rsvpContainer {
+    margin: 20px;
+    border: 3px solid black;
+    background-color: gray;
+    opacity: .9;
+}        
+
+#rsvp {
+    font-size: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+    background-image: url("images/weddingPicture.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.question {
+    display: block; /*  This is only for the label */
+    position: relative;
+    font-size: 2rem;
+    text-align: center;
+}
+         
+#attendance, #mealChoice {
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    outline: black 1px solid;
+}
+
+.attendanceAnswer {
+    text-align: center;
+}
+
+.attendanceAnswer, .foodAnswer {
+    background-color: white;
+}
+
+.foodAnswer {
+    margin: 10px;
+}
+
+.textInput {
+    position: relative;
+    background-color: white;
+    color: black;
+    height: 20px;
+    text-align: center;
+    text-transform: none;
+}        
+
+.rsvpWrapper {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.submit {
+    outline: black;
+    margin-bottom: 10px;
+}        
+
+#submitButton {
+    width: 200px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    outline: black 1px solid;
+}
+
+#submitButton::hover {
+    cursor: pointer;
+}
+
+.buttonWrapper {
+    text-align: center;
+    margin-bottom: 100px;
+}     
+
+#home {
+    padding: 10px;
+    outline: 1px solid black;
+}
+
+#mollyPitcherInn {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+#mollyPicture {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#mollyPicture > img {
+    width: 80%;
+    height: 500px;
+}
+
+#mollyLocation {
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 20px;
+}
+         
+#mollyInstructions {
+    margin-top: 100px;
+    margin-left: 25vw;
+    text-align: center;
+    font-size: 30px;
+    width: 50vw;
+    margin-bottom: 100px;
+}
+
+#mollyInstructions > a {
+    text-decoration: underline;
+}
+
+#thingsIntro, #thingsInstructions {
+    color: white;
+}
+
+#thingsIntro {
+    text-align: center;
+    font-size: 50px;
+}
+         
+#thingsImage {
+    margin-top: 30px;
+    width: 50vw;
+    margin-left: 25vw;
+    margin-bottom: 30px;
+}
+         
+#thingsInstructions {
+    text-align: center;
+    width: 70vw;
+    margin-left: 15vw;
+    font-size: 20px;
+}        
+         
+#activities {
+    padding-top: 20px;
+    background-color: gray;
+    margin-top: 70px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    opacity: .9;
+}
+
+.activities {
+    background-color: gray;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    opacity: .9;
+}
+
+.bottom {
+    margin-bottom: 70px;
+}
+
+#registry {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+#registry > a {
+    color: white;
+    text-decoration: underline;
+}
+
+#faq {
+    padding-top: 10px;
+    text-align: center;
+    background-color: gray;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}        
+
+.faqQuestion {
+    background-color: gray;
+    padding-top: 30px;
+    font-size: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+         
+.faqAnswer {
+    font-size: 20px;
+    background-color: gray;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 30px
+}
+
+.extraSpace {
+    margin-top: 30px;
+}
+
+@media (max-width: 480px) {
+
+    #ampersand {
+        display: none;
+    }
+
+    #hashtagHeader {
+        display: none;
+    }
+
+    #areaHeader {
+        float: right;
+        padding-right: 10px;
+    }
+
+    #image {
+        width: 200px;
+        height: 300px;
+    }
+
+    .image {
+        margin: 30px;
+    }
+
+    #Richard {
+        position: relative;
+        display: inline-block;
+        width: 70px;
+        font-size: 2rem;
+        right: 80px;
+    }
+    
+    #flower {
+        display: none;
+    }     
+          
+    #Kathleen {
+        position: relative;
+        display: inline-block;
+        width: 70px;
+        font-size: 2rem;
+        left: 0px;
+    }     
+
+    .secondImage img {
+        width: 90vw
+    }
+
+    #mollyInstructions {
+    margin-top: 100px;
+    margin-left: 10vw;
+    text-align: center;
+    font-size: 30px;
+    width: 80vw;
+    margin-bottom: 100px;
+    }
+
+    #activities {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .activities {
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #registry {
+        font-size: 4vw;
+    }    
+
+    #faq {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        opacity: .9;
+    }
+
+    .faqQuestion {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        opacity: .9;
+    }
+         
+    .faqAnswer {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        opacity: .9;   
+    }
+
+    #mollyPitcherInn {
+        color: white;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    #ampersand {
+        display: none;
+    }   
+
+    .topContainer {
+        margin-bottom: 10px;
+    }        
+
+    #monthHeader {
+        margin-left: 5vw;
+    }
+
+    #areaHeader {
+        margin-left: 5vw;
+    }
+
+    #hashtagHeader {
+        /* margin-left: 40vw; */
+        float: right;
+        padding-right: 10px;
+    }
+            
+    .navbar {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .navbar a {
+        margin-left: 10px;
+        margin-right: 10px;
+        color: white;
+    }
+
+    #image {
+        width: 300px;
+        height: 400px;
+    }
+
+    .image {
+        margin: 30px;
+    }        
+
+    #Richard {
+        position: relative;
+        display: inline-block;
+        width: 100px;
+        font-size: 2.6rem;
+        right: 100px;
+    }
+      
+    #flower {
+        display: none;
+    }     
+      
+    #Kathleen {
+        position: relative;
+        display: inline-block;
+        width: 100px;
+        font-size: 2.6rem;
+        left: 10px;
+    }     
+
+    .secondImage img {
+        width: 90vw
+    }
+
+    #mollyInstructions {
+    margin-top: 100px;
+    margin-left: 10vw;
+    text-align: center;
+    font-size: 30px;
+    width: 80vw;
+    margin-bottom: 100px;
+    }
+
+    #activities {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .activities {
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #registry {
+        font-size: 4vw;
+    }    
+
+    #faq {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        opacity: .9;
+    }
+
+    .faqQuestion {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+         
+    .faqAnswer {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+}        

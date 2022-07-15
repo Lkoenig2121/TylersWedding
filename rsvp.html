@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>RSVP</title>
+</head>  
+<body>   
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script defer src='script.js'></script>
+    <title>Tyler and Kathleen</title>
+</head>  
+<body>  
+
+    <!-- Header Section Starts -->
+
+    <header class='header'>
+
+        <div class="topContainer">
+            <span id="monthHeader">July 8th, 2023</span>
+            <span id="areaHeader">New Jersey, NJ</span>
+            <span id='hashtagHeader'>#TylerAndKathleen</span>
+        </div>
+
+
+        <div class="names">
+            Tyler & Kathleen
+        </div>
+
+    </header>
+
+    <!-- Header Section Ends -->
+
+    <!-- Navbar Section Starts -->
+
+    <nav class="navbar">
+        <a id="homeButton" href="index.html">Home</a>
+        <a id="rsvpButton">RSVP</a>
+        <a id="accommodationsButton" href="accommodations.html">Accommodations</a>
+        <a id="thingsToDoButton" href="thingstodo.html">Things to do</a>
+        <a id="registryButton" href="registry.html">Registry</a>
+        <a id="faqButton" href="faq.html">FAQ</a>
+    </nav>
+
+    <!-- Navbar Section Ends -->
+
+    <!-- RSVP Sections Starts -->
+
+    <div class="rsvpContainer">
+
+        <div id="rsvp">RSVP</div>
+
+        <div id="#questions">
+            
+        
+            <form action="" method="POST">
+
+            <label class="question" for="name">Name: </label>
+            <div class="rsvpWrapper"><input name="name" class="textInput" autocomplete="off" type="text" placeholder="" required></div>
+         
+            <label class="question" for="email">Email: </div>
+            <div class="rsvpWrapper"><input name="email" class="textInput" autocomplete="off" type="text" placeholder="" required></div>
+
+            <label class="question" for="others">Family Members I'd like to RSVP for: (optional)</label>
+            <div class="rsvpWrapper"><input name="others" class="textInput" autocomplete="off" type="text" placeholder=""></div>
+
+            <label class="question" for="attendance">Will I be attending?</label>
+            <div class="rsvpWrapper"><select name="attendance" id="attendance">
+                <option class="attendanceAnswer" value="yes">Yes</option>
+                <option class="attendanceAnswer" value="no">No</option>
+            </select></div>
+
+            <label class="question" for="mealChoice">Meal Choice: </label>
+            <div class="rsvpWrapper"><select name="mealChoice" id="mealChoice">
+                <option class="foodAnswer" value="penneVodka">Penne Vodka</option>
+                <option class="foodAnswer" value="chicken">Chicken</option>
+            </select></div>
+
+            <label class="question" for="dietaryRestriction">Dietary Restrictions: (optional)</label>
+            <div class="rsvpWrapper"><input name="dietaryRestriction" class="textInput" autocomplete="off" type="text" placeholder=""></div>
+
+            <div class="buttonWrapper">
+                    <button id="submitButton" type="submit">Send</button>
+            </div>
+        </form>
+
+        </div>
+
+    </div>
+
+    <!-- RSVP Section Ends -->
+
+</body>
+</html>
