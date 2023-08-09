@@ -273,6 +273,10 @@ html::-webkit-scrollbar-thumb {
     text-align: center;
     font-size: 50px;
     text-decoration: underline;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    opacity: 0.9;
 }
 
 #mollyPicture {
@@ -306,7 +310,7 @@ html::-webkit-scrollbar-thumb {
     text-decoration: underline;
 }
 
-#thingsIntro, #thingsInstructions {
+#thingsIntro {
     color: white;
 }
 
@@ -327,6 +331,9 @@ html::-webkit-scrollbar-thumb {
     width: 70vw;
     margin-left: 15vw;
     font-size: 20px;
+    background-color: gray;
+    padding: 1rem;
+    outline: 1px solid black;
 }        
          
 #activities {
