@@ -381,6 +381,7 @@ html::-webkit-scrollbar-thumb {
     margin-right: 20%;
     padding-left: 5%;
     padding-right: 5%;
+
 }        
 
 .faqQuestion {
@@ -492,7 +493,6 @@ html::-webkit-scrollbar-thumb {
         margin-right: 10%;
         padding-left: 5%;
         padding-right: 5%;
-        opacity: .9;
     }
 
     .faqQuestion {
@@ -500,7 +500,6 @@ html::-webkit-scrollbar-thumb {
         margin-right: 10%;
         padding-left: 5%;
         padding-right: 5%;
-        opacity: .9;
     }
          
     .faqAnswer {
@@ -508,7 +507,6 @@ html::-webkit-scrollbar-thumb {
         margin-right: 10%;
         padding-left: 5%;
         padding-right: 5%;
-        opacity: .9;   
     }
 
     #mollyPitcherInn {
@@ -618,7 +616,6 @@ html::-webkit-scrollbar-thumb {
         margin-right: 10%;
         padding-left: 5%;
         padding-right: 5%;
-        opacity: .9;
     }
 
     .faqQuestion {
